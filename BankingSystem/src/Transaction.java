@@ -1,5 +1,7 @@
 public abstract class Transaction {
 
-    abstract public void perform_transaction();
+     public void perform_transaction(){
+         System.out.println("transaction done successfully");
+     }
 
 }

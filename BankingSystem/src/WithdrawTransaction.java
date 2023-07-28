@@ -1,7 +1,7 @@
 public class WithdrawTransaction extends Transaction{
     @Override
     public void perform_transaction() {
-        System.out.println("Withdraw transaction done successfully");
-
+        System.out.print("Withdraw ");
+        super.perform_transaction();
     }
 }
