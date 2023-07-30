@@ -1,16 +1,16 @@
 public class CheckingAccount extends Account{
 //    Attributes
-    private String checkRecever;
+    private String checkReceiver;
     private double checkAmount;
 
 //    Encapsulation
 
-    public String getCheckRecever() {
-        return checkRecever;
+    public String getCheckReceiver() {
+        return checkReceiver;
     }
 
-    public void setCheckRecever(String checkRecever) {
-        this.checkRecever = checkRecever;
+    public void setCheckReceiver(String checkReceiver) {
+        this.checkReceiver = checkReceiver;
     }
 
     public double getCheckAmount() {
@@ -22,13 +22,13 @@ public class CheckingAccount extends Account{
     }
 //    Constructors
     public CheckingAccount(String checkRecever, double checkAmount) {
-        this.checkRecever = checkRecever;
+        this.checkReceiver = checkRecever;
         this.checkAmount = checkAmount;
     }
 
 //    Methods
     public void issueCheck(){
-        System.out.println("This check for "+checkRecever+" with amount of "+ checkAmount);
+        System.out.println("This check for "+ checkReceiver +" with amount of "+ checkAmount);
     }
 }
 
